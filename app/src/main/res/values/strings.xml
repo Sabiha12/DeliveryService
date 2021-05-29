@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Delivery Service</string>
+    <string name="api_key">AIzaSyAX1ncn3J3QgxbDC3rQJKhhcHZaJi5ozxU</string>
+
+
+    <string name="next">Next</string>
+    <string name="introtext">Service at your doorstep. </string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgrot">Forgot Password!</string>
+
+    <string name="name">Name</string>
+    <string name="mobile">Mobile</string>
+    <string name="refercode">Refer Code</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="label_1">Home</string>
+    <string name="label_2">Bookings</string>
+    <string name="search">Search...</string>
+    <string name="view_all_services">View All Services</string>
+    <string name="select_a_service">Select A Service</string>
+    <string name="conti">Continue</string>
+    <string name="proceed_to_pay">Proceed to pay</string>
+    <string name="code">Code</string>
+    <string name="timetitle">When would you like your service?</string>
+    <string name="address">Address for service</string>
+    <string name="change">Change</string>
+    <string name="menu1">Register As Partner</string>
+    <string name="menu2">My Booking</string>
+    <string name="menu3">About</string>
+    <string name="menu4">Share with Friend</string>
+    <string name="menu5">Refer &amp; Earn</string>
+    <string name="menu6">My Wallet</string>
+    <string name="label_3">Wallet</string>
+    <string name="string_label_4">Notification</string>
+    <string name="label_5">Setting</string>
+    <string name="income">Income</string>
+    <string name="expense">Expense</string>
+    <string name="current_balanec">Current Balance</string>
+    <string name="transections">Transection</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="update">Update</string>
+    <string name="list_addon">List Addon</string>
+    <string name="select_service">Your Service</string>
+    <string name="order_details">Order Details</string>
+    <string name="order_summary">Order Summary</string>
+    <string name="introtext1">We have great and fast services for you. \nChoose service you want to need.</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="trams">Terms &amp; Condition</string>
+    <string name="deletemesseg">Are you sure you want to cancel</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="contect">Contact</string>
+    <string name="track">Order Status</string>
+    <string name="title1">Congratulations !!! \n Your order has been successfully placed.</string>
+    <string name="title2">Please check the delivery status at My Booking page</string>
+    <string name="info">Info</string>
+    <string name="reschedule">Reschedule</string>
+    <string name="wallet">Wallet</string>
+    <string name="usertitle">Word on the street</string>
+    <string name="usersubtitle">Testimonials</string>
+</resources>

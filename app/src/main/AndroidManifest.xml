@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vanillacoder.delivery">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name="com.vanillacoder.delivery.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DeliveryService"
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.vanillacoder.delivery.activity.SearchActivity"></activity>
+        <activity android:name="com.vanillacoder.delivery.activity.BookingDetailActivity" />
+        <activity android:name="com.vanillacoder.delivery.activity.ResedulActivity" />
+        <activity android:name="com.vanillacoder.delivery.activity.BookingActivity" />
+        <activity android:name="com.vanillacoder.delivery.activity.NotificationActivity" />
+        <activity android:name="com.vanillacoder.delivery.activity.ReferlActivity" />
+        <activity android:name="com.vanillacoder.delivery.activity.WalletActivity" />
+        <activity android:name="com.vanillacoder.delivery.activity.TimeSlotActivity" />
+        <activity android:name="com.vanillacoder.delivery.activity.CartActivity" />
+        <activity android:name="com.vanillacoder.delivery.activity.BasicActivity" />
+        <activity android:name="com.vanillacoder.delivery.activity.AddOnsActivity" />
+        <activity android:name="com.vanillacoder.delivery.activity.ItemListActivity" />
+        <activity
+            android:name="com.vanillacoder.delivery.activity.SubCategoryActivity"
+            android:theme="@style/Theme.Intro" />
+        <activity android:name="com.vanillacoder.delivery.activity.SubCategoyTypeActivity" />
+        <activity android:name="com.vanillacoder.delivery.activity.ServiceAllActivity" />
+        <activity android:name="com.vanillacoder.delivery.activity.DynamicAllActivity" />
+        <activity
+            android:name="com.vanillacoder.delivery.activity.SearchLocationActivity"
+            android:theme="@style/Theme.Intro" />
+        <activity
+            android:name="com.vanillacoder.delivery.activity.LoginActivity"
+            android:theme="@style/Theme.Intro" />
+        <activity
+            android:name="com.vanillacoder.delivery.activity.HomeActivity"
+            android:theme="@style/Theme.Intro" />
+        <activity
+            android:name="com.vanillacoder.delivery.activity.VerifyPhoneActivity"
+            android:theme="@style/Theme.Intro" />
+        <activity android:name="com.vanillacoder.delivery.activity.AddressActivity" />
+        <activity android:name="com.vanillacoder.delivery.activity.RazerpayActivity" />
+        <activity android:name="com.vanillacoder.delivery.activity.PaypalActivity" />
+        <activity android:name="com.vanillacoder.delivery.activity.SettingActivity" />
+        <activity android:name="com.vanillacoder.delivery.activity.PrivecyPolicyActivity" />
+        <activity android:name="com.vanillacoder.delivery.activity.AboutsActivity" />
+        <activity android:name="com.vanillacoder.delivery.activity.TramsAndConditionActivity" />
+        <activity android:name="com.vanillacoder.delivery.activity.ContectusActivity" />
+        <activity android:name="com.vanillacoder.delivery.activity.EditProfileActivity" />
+        <activity android:name="com.vanillacoder.delivery.activity.ForgotActivity" />
+        <activity android:name="com.vanillacoder.delivery.activity.ChanegPasswordActivity" />
+        <activity
+            android:name="com.vanillacoder.delivery.activity.IntroActivity"
+            android:theme="@style/Theme.Intro" />
+        <activity
+            android:name="com.vanillacoder.delivery.locationpick.LocationGetActivity"
+            android:theme="@style/Theme.Intro" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/api_key" />
+
+        <activity
+            android:name="com.vanillacoder.delivery.activity.FirstActivity"
+            android:theme="@style/Theme.Intro">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.vanillacoder.delivery.MainActivity" />
+    </application>
+
+</manifest>
